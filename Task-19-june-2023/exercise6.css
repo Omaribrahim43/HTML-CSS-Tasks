@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(233, 233, 128);
+}
+.p1 {
+    width: 550px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+.p1 span {
+    font-weight: bold;
+    background-color: rgb(243, 178, 131);
+    padding: 3px;
+}
+.p2{
+    width: 550px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.p2 span {
+    font-weight: bold;
+    background-color: rgb(243, 178, 131);
+    padding: 3px;
+}
+.p3{
+    width: 550px;
+    background-color: white;
+    padding: 10px;
+    border: 1px dotted red;
+    color: red;
+}
+.p3 p{
+    border: 1px dotted red;
+}

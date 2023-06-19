@@ -33,6 +33,7 @@ nav a:hover{
     background-color: #555;
 }
 
+
 section {
     padding: 20px;
     margin-bottom: 20px;
@@ -64,6 +65,7 @@ section li:nth-child(2){
 section :nth-child(3){
     background-color: grey;
 }
+
 footer {
     background-color: #333;
     color: #fff;

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test table</title>
+        <style>
+            .container .f1 {
+                height: 400px;
+                width: 400px;
+                background-color:beige;
+                
+            }
+            .container .f1 h4{
+                display: inline-block;
+                padding: 7px;
+                margin: 0;
+                margin-left: 170px;
+            }
+            .container .f2 {
+                height: 300px;
+                width: 300px;
+                margin: auto;
+                margin-top: 15px;
+                background-color:dodgerblue;
+            }
+            .container .f1 .f2 h4 {
+                margin: 0;
+                margin-left: 125px;
+                display: inline-block;
+                padding: 7px;
+            }
+
+            .container .f3 {
+                height: 220px;
+                width: 220px;
+                margin-left:30px ;
+                background-color: coral;
+            }
+            .container .f1 .f2 .f3 h4 {
+                margin: 0;
+                margin-left: 80px;
+                display: inline-block;
+                padding: 7px;
+            }
+            .container .f4 {
+                background-color: white;
+                height: 140px;
+                width: 160px;
+                margin-left:17px ;
+            }
+
+            .container .f1 .f2 .f3 .f4 h4 {
+                margin: 0;
+                margin-top:47px;
+                margin-left:45px ;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <fieldset class="f1">
+                <h4>Margin</h4>
+                <fieldset class="f2">
+                    <h4>Border</h4>
+                    <fieldset class="f3">
+                        <h4>Padding</h4>
+                        <fieldset class="f4">
+                            <h4>Content</h4>
+                        </fieldset>
+                    </fieldset>
+                </fieldset>
+            </fieldset>
+        </div>
+    </body>
+</html>

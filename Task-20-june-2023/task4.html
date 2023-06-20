@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise #4 - positions</title>
+    </head>
+    <style>
+        h5 {
+            margin-bottom: 5px;
+        }
+        .static {
+            width: 413px;
+            height: 100px;
+            border: 2px dotted black;
+            display: block;
+            position: relative;
+        }
+        .static .one{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+
+        }
+        .static .two{
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            left: 103px;
+        }
+        .static .three{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            left: 206px;
+        }
+        .static .four{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            left: 309px;
+        }
+        .relative {
+            margin-top: 30px;
+            width: 413px;
+            height: 100px;
+            border: 2px dotted black;
+            display: block;
+            position: relative;
+        }
+        .relative .one{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            display: inline-block;
+        }
+        .relative .two{
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            display: inline-block;
+            left: 12px;
+            top: 15px;
+            z-index: 1;
+        }
+        .relative .three{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            display: inline-block;
+        }
+        .relative .four{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            display: inline-block;
+
+        }
+    </style>
+    <body>
+        <h5>position: static</h5>
+        <div class="static">
+            <div class="one">
+                <p>One</p>
+            </div>
+            <div class="two">
+                <p>Two</p>
+            </div>
+            <div class="three">
+                <p>Three</p>
+            </div>
+            <div class="four">
+                <p>Four</p>
+            </div>
+        </div>
+        <h5>position: relative</h5>
+        <div class="relative">
+            <div class="one">
+                <p>One</p>
+            </div>
+            <div class="two">
+                <p>Two</p>
+            </div>
+            <div class="three">
+                <p>Three</p>
+            </div>
+            <div class="four">
+                <p>Four</p>
+            </div>
+        </div>
+        <div class="absolute">
+            <div class="one">
+                <p>One</p>
+            </div>
+            <div class="two">
+                <p>Two</p>
+            </div>
+            <div class="three">
+                <p>Three</p>
+            </div>
+            <div class="four">
+                <p>Four</p>
+            </div>
+        </div>
+    </body>
+</html>

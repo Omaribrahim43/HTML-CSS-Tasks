@@ -7,18 +7,11 @@
         .grid-container{
             display: grid;
             grid-template-columns: repeat(12,auto);
-            grid-template-rows:auto auto auto auto auto auto;
-            height: 100%;
-            width: 100%;
+            grid-template-rows:24px auto auto auto auto 24px;
+            height: 425px;
+            width: 400px;
             background-color: beige;
             gap: 10px 25px;
-        }
-        .block{
-            padding: 50px;
-            text-align: center;
-            color: white;
-            font-weight: bold;
-            font-size: 48px;
         }
         .grey1{
            grid-column: 1/13;
@@ -72,29 +65,22 @@
             grid-column: 1/13;
             background-color: grey;
         }
-        @media screen and (max-width:480px) {
-            .grid-container{
-                display: grid;
-                grid-template-columns: repeat(3,auto);
-                grid-template-rows: repeat(10,auto);
-            }
-        }
     </style>
     <body>
         <div class="grid-container">
-            <div class="block grey1">1</div>
-            <div class="block blue1">2</div>
-            <div class="block light-blue1">3</div>
-            <div class="block yellow1">4</div>
-            <div class="block yellow2">5</div>
-            <div class="block yellow3">6</div>
-            <div class="block light-blue2">7</div>
-            <div class="block blue2">8</div>
-            <div class="block orange1">9</div>
-            <div class="block orange2">10</div>
-            <div class="block orange3">11</div>
-            <div class="block orange4">12</div>
-            <div class="block grey2">12</div>
+            <div class="block grey1"></div>
+            <div class="block blue1"></div>
+            <div class="block light-blue1"></div>
+            <div class="block yellow1"></div>
+            <div class="block yellow2"></div>
+            <div class="block yellow3"></div>
+            <div class="block light-blue2"></div>
+            <div class="block blue2"></div>
+            <div class="block orange1"></div>
+            <div class="block orange2"></div>
+            <div class="block orange3"></div>
+            <div class="block orange4"></div>
+            <div class="block grey2"></div>
         </div>
     </body>
 </html>

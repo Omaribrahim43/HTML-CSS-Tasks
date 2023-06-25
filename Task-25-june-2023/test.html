@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <style>
+        @keyframes slide {
+            0% {background-color: red; left: 0;top: 0;}
+            25% {background-color: blue;left: 200px;top: 0;}
+            50% {background-color: yellow;left: 0;top: 200px;}
+            75% {background-color: green;left: 200px;top: 200px;}
+            100% {background-color: red;left: 0;top: 0;}
+        }
+        .container .btn{
+            font-family: Roboto, sans-serif;
+            border-radius: 5px;
+            border: 1px solid black;
+            font-size: 18px;
+            width: 100px;
+            display: block;
+            transition: background-color 0.5s ease-in-out;
+        }
+        .btn:hover{
+            background-color: skyblue;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color: red;
+            animation: slide 4s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <i class="fas fa-home fa-2x"></i>
+        <button class="btn">Home</button>
+    </div>
+    <h1 class="box"></h1>
+</body>
+</html>
